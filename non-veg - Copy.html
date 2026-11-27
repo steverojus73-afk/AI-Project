@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efff">
+  <meta name="description" content="Explore Tamil Nadu chicken, mutton, and seafood favourites at Saffron & Stone.">
+  <title>Tamil Non-Vegetarian Menu — Saffron &amp; Stone</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu-photo-data.js" defer></script>
+  <script src="menu-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-menu-category="non-veg">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html#home" aria-label="Saffron and Stone home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 17h20a10 10 0 0 1-20 0Z"></path><path d="M10 12c-1.5-2 1.5-2.5 0-5M16 12c-1.5-2 1.5-2.5 0-5M22 12c-1.5-2 1.5-2.5 0-5M10 28h12"></path></svg></span>
+        <span class="brand-name">Saffron <span>&amp;</span> Stone</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="index.html#home">Home</a><a href="index.html#menu">Menu</a><a href="index.html#about">About Us</a><a href="index.html#contact">Contact</a><a href="support.html">Support</a>
+        <button class="signin-link" id="signin-link" type="button">Demo sign in</button>
+        <div class="auth-status" id="auth-status" hidden><span class="auth-name" id="auth-name"></span><button class="signout-button" id="signout-button" type="button">Sign out</button></div>
+        <span class="auth-message" id="auth-message" role="status" hidden></span>
+        <a class="cart-link" href="cart.html" aria-label="Cart, 0 items"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg><span>Cart</span><span class="cart-count" aria-live="polite">0</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="menu-section section-pad" id="menu" aria-labelledby="page-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> From land and sea</p><h2 id="page-title">Tamil Nadu <em>specialties.</em></h2></div>
+          <p class="section-intro">Discover Chettinad spices, regional biryanis, Madurai favourites, and coastal fish dishes.</p>
+        </div>
+        <nav class="category-pages" aria-label="Explore menu pages">
+          <a href="veg.html">Veg menu <span aria-hidden="true">→</span></a><a href="non-veg.html" aria-current="page">Non-Veg menu <span aria-hidden="true">→</span></a><a href="desserts.html">Desserts menu <span aria-hidden="true">→</span></a><a href="drinks.html">Drinks menu <span aria-hidden="true">→</span></a>
+        </nav>
+        <div class="menu-search menu-search-page">
+          <label for="menu-search">Search dishes</label>
+          <input id="menu-search" type="search" autocomplete="off" placeholder="Try Chettinad Chicken">
+        </div>
+        <div class="menu-grid" id="menu-items" aria-live="polite">
+        </div>
+        <p class="menu-empty" id="menu-empty" role="status" hidden>No dishes match your search. Try another name.</p>
+        <p class="cart-feedback" id="cart-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="index.html#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 17h20a10 10 0 0 1-20 0Z"></path><path d="M10 12c-1.5-2 1.5-2.5 0-5M16 12c-1.5-2 1.5-2.5 0-5M22 12c-1.5-2 1.5-2.5 0-5M10 28h12"></path></svg></span><span class="brand-name">Saffron <span>&amp;</span> Stone</span></a><p>Good food, good company.<br>Always room at the table.</p><div class="footer-links"><a href="index.html#menu">All food</a><a href="index.html#about">Our story</a><a href="index.html#contact">Get in touch</a></div><a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a></div><div class="container footer-bottom"><span>© <span id="current-year"></span> Saffron &amp; Stone</span><span>Made with care, served with love.</span></div></footer>
+</body>
+</html>

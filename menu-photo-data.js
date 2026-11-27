@@ -1,0 +1,176 @@
+window.restaurantMenuPhotoOverrides = {
+  "Masala Dosa": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Masala_dosa_%2810915%29.jpg/960px-Masala_dosa_%2810915%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_dosa_(10915).jpg",
+    "artist": "Afsarnayakkan",
+    "license": "CC BY-SA 4.0"
+  },
+  "Idli Sambar": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Idli_sambar_plate_on_9th_march_2025.jpg/960px-Idli_sambar_plate_on_9th_march_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Idli_sambar_plate_on_9th_march_2025.jpg",
+    "artist": "Herdaisymione",
+    "license": "CC BY-SA 4.0"
+  },
+  "Medu Vada": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Medu_vada_%281%29.jpg/960px-Medu_vada_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Medu_vada_(1).jpg",
+    "artist": "Dolon Prova",
+    "license": "CC BY-SA 4.0"
+  },
+  "Onion Uttapam": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Onion_Uttapam_with_butter.jpg/960px-Onion_Uttapam_with_butter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Onion_Uttapam_with_butter.jpg",
+    "artist": "Pullak Parag Khetan",
+    "license": "CC BY-SA 4.0"
+  },
+  "Kuzhi Paniyaram": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Kuzhi_Paniyaram_India_b.jpg/960px-Kuzhi_Paniyaram_India_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Kuzhi_Paniyaram_India_b.jpg",
+    "artist": "Divya Kudua",
+    "license": "CC BY 2.0"
+  },
+  "Curd Rice": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Curd_rice_seasoned_with_spices.JPG/960px-Curd_rice_seasoned_with_spices.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Curd_rice_seasoned_with_spices.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0"
+  },
+  "Sambar Vadai": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Vadai%26Sambar.jpg/960px-Vadai%26Sambar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Vadai%26Sambar.jpg",
+    "artist": "Dilip Muralidaran from Chennai, India",
+    "license": "CC BY 2.0"
+  },
+  "Chettinad Chicken Curry": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chicken_Chettinadu_-_Calcutta_16_2026-07-11.jpg/960px-Chicken_Chettinadu_-_Calcutta_16_2026-07-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Chettinadu_-_Calcutta_16_2026-07-11.jpg",
+    "artist": "Andy Li",
+    "license": "CC0"
+  },
+  "Dindigul Chicken Biryani": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Chicken_Biryani_%21%21.jpg/960px-Chicken_Biryani_%21%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Biryani_!!.jpg",
+    "artist": "Arul Raj C",
+    "license": "CC BY-SA 4.0"
+  },
+  "Meen Kuzhambu": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sheela_Meen_Kuzhambu.JPG/960px-Sheela_Meen_Kuzhambu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Sheela_Meen_Kuzhambu.JPG",
+    "artist": "Kalaiselvi Murugesan",
+    "license": "CC BY-SA 4.0"
+  },
+  "Ambur Mutton Biryani": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ambur_Mutton_Briyani.jpg/960px-Ambur_Mutton_Briyani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Ambur_Mutton_Briyani.jpg",
+    "artist": "Sreenorainee",
+    "license": "CC BY-SA 4.0"
+  },
+  "Madurai Kari Dosa": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Madurai_kari_dosa.jpg/960px-Madurai_kari_dosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Madurai_kari_dosa.jpg",
+    "artist": "Dharani 31",
+    "license": "CC BY-SA 4.0"
+  },
+  "Sakkarai Pongal": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg/960px-Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Ven_Pongal_%26_sakkarai_pongal_with_vada_%26_bonda.jpg",
+    "artist": "Raamsanjay",
+    "license": "CC BY-SA 4.0"
+  },
+  "Mysore Pak": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mysore_Pak_by_Dr._Raju_Kasambe_DSCN8105_02.jpg/960px-Mysore_Pak_by_Dr._Raju_Kasambe_DSCN8105_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Mysore_Pak_by_Dr._Raju_Kasambe_DSCN8105_02.jpg",
+    "artist": "Dr. Raju Kasambe",
+    "license": "CC BY-SA 4.0"
+  },
+  "Kadalai Mittai": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kadalai_mittai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source": "https://commons.wikimedia.org/wiki/File:Kadalai_mittai.jpg",
+    "artist": "இவான்",
+    "license": "CC BY-SA 4.0"
+  },
+  "Madurai Jigarthanda": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Madurai_Jigarthanda.jpg/960px-Madurai_Jigarthanda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Madurai_Jigarthanda.jpg",
+    "artist": "Srini297",
+    "license": "CC BY-SA 4.0"
+  },
+  "Panakam": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Panagam_picture.JPG/960px-Panagam_picture.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Panagam_picture.JPG",
+    "artist": "Nithyasrm",
+    "license": "CC BY-SA 4.0"
+  },
+  "Masala Chai": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/960px-Masala_Chai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG",
+    "artist": "Miansari66",
+    "license": "Public domain"
+  },
+  "Ginger Tea": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/A_Cup_Of_Ginger_Tea.jpg/960px-A_Cup_Of_Ginger_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Cup_Of_Ginger_Tea.jpg",
+    "artist": "ওয়ালিদ ভূইয়া",
+    "license": "CC0"
+  },
+  "Sukku Tea": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg/960px-Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg",
+    "artist": "Gems Keerthiga",
+    "license": "CC BY-SA 4.0"
+  },
+  "Neer Mor": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Buttermilk_and_lassi.jpg/960px-Buttermilk_and_lassi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Buttermilk_and_lassi.jpg",
+    "artist": "Hari mahendara",
+    "license": "CC BY-SA 4.0"
+  },
+  "Spiced Buttermilk": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Chaach.JPG/960px-Chaach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Chaach.JPG",
+    "artist": "Rayraider",
+    "license": "CC BY-SA 4.0"
+  },
+  "Sukku Malli Coffee": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg/960px-Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Sukkumalli_Coffee_or_Dry_Ginger_Coffee.jpg",
+    "artist": "Gems Keerthiga",
+    "license": "CC BY-SA 4.0"
+  },
+  "Nannari Sarbath": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nannari_sarbath_with_Sabja_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source": "https://commons.wikimedia.org/wiki/File:Nannari_sarbath_with_Sabja_seeds.jpg",
+    "artist": "V.S.Pooja",
+    "license": "CC BY-SA 4.0"
+  },
+  "Chicken 65": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_65%2C_Kerala.jpg/960px-Chicken_65%2C_Kerala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_65,_Kerala.jpg",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0"
+  },
+  "Prawn Thokku": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Prawn_thokku.jpg/960px-Prawn_thokku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Prawn_thokku.jpg",
+    "artist": "Vijinagi",
+    "license": "CC BY-SA 4.0"
+  },
+  "Vanjaram Fish Fry": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Seer_Fish_Fry.JPG/960px-Seer_Fish_Fry.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Seer_Fish_Fry.JPG",
+    "artist": "Nithin bolar k",
+    "license": "CC BY-SA 3.0"
+  },
+  "Adhirasam": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Adhirasam.jpeg/960px-Adhirasam.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Adhirasam.jpeg",
+    "artist": "DSwathika",
+    "license": "CC BY-SA 4.0"
+  },
+  "Paal Kozhukattai": {
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Paal_Kozhukattai.JPG/960px-Paal_Kozhukattai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source": "https://commons.wikimedia.org/wiki/File:Paal_Kozhukattai.JPG",
+    "artist": "Balaji Sakthivel",
+    "license": "CC BY-SA 4.0"
+  }
+};

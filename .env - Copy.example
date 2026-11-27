@@ -1,0 +1,7 @@
+PORT=3000
+HOST=127.0.0.1
+NODE_ENV=development
+SESSION_SECRET=replace-this-with-a-random-value-at-least-32-characters-long
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CALLBACK_URL=http://localhost:3000/auth/google/callback

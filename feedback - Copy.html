@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efff">
+  <meta name="description" content="Share feedback about your Saffron & Stone demo order.">
+  <title>Order Feedback — Saffron &amp; Stone</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu-photo-data.js" defer></script>
+  <script src="menu-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html#home" aria-label="Saffron and Stone home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 17h20a10 10 0 0 1-20 0Z"></path><path d="M10 12c-1.5-2 1.5-2.5 0-5M16 12c-1.5-2 1.5-2.5 0-5M22 12c-1.5-2 1.5-2.5 0-5M10 28h12"></path></svg></span>
+        <span class="brand-name">Saffron <span>&amp;</span> Stone</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="index.html#home">Home</a><a href="index.html#menu">Menu</a><a href="index.html#about">About Us</a><a href="index.html#contact">Contact</a><a href="support.html">Support</a>
+        <button class="signin-link" id="signin-link" type="button">Demo sign in</button>
+        <div class="auth-status" id="auth-status" hidden><span class="auth-name" id="auth-name"></span><button class="signout-button" id="signout-button" type="button">Sign out</button></div>
+        <span class="auth-message" id="auth-message" role="status" hidden></span>
+        <a class="cart-link" href="cart.html" aria-label="Cart, 0 items"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg><span>Cart</span><span class="cart-count" aria-live="polite">0</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="menu-section section-pad" aria-labelledby="feedback-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> Thanks for stopping by</p><h2 id="feedback-title">How did <em>we do?</em></h2></div>
+          <p class="section-intro">Your demo checkout is complete. Share a quick rating and tell us what you think.</p>
+        </div>
+        <div class="feedback-layout">
+          <section class="feedback-panel" aria-labelledby="feedback-order-title">
+            <h3 id="feedback-order-title">Demo order summary</h3>
+            <p class="feedback-order-status" id="feedback-order-status" role="status" aria-live="polite">Loading your order details...</p>
+            <dl class="feedback-order-details" id="feedback-order-details" hidden>
+              <div><dt>Items</dt><dd id="feedback-item-count"></dd></div>
+              <div><dt>Demo order ID</dt><dd id="feedback-order-number"></dd></div>
+              <div><dt>Subtotal</dt><dd id="feedback-subtotal"></dd></div>
+              <div><dt>Selected method</dt><dd id="feedback-payment-method"></dd></div>
+            </dl>
+            <a class="text-link feedback-track-link" href="tracking.html">Track this demo order <span aria-hidden="true">→</span></a>
+            <p class="feedback-note">This was a demo checkout. No payment was processed.</p>
+          </section>
+          <section class="feedback-panel" aria-labelledby="feedback-form-title">
+            <h3 id="feedback-form-title">Leave your feedback</h3>
+            <form class="feedback-form" id="feedback-form">
+              <fieldset>
+                <legend>Your rating <span aria-hidden="true">*</span></legend>
+                <div class="feedback-rating-options">
+                  <label class="feedback-rating-option"><input type="radio" name="rating" value="1" aria-label="1 star" required><span aria-hidden="true">★</span></label>
+                  <label class="feedback-rating-option"><input type="radio" name="rating" value="2" aria-label="2 stars" required><span aria-hidden="true">★</span></label>
+                  <label class="feedback-rating-option"><input type="radio" name="rating" value="3" aria-label="3 stars" required><span aria-hidden="true">★</span></label>
+                  <label class="feedback-rating-option"><input type="radio" name="rating" value="4" aria-label="4 stars" required><span aria-hidden="true">★</span></label>
+                  <label class="feedback-rating-option"><input type="radio" name="rating" value="5" aria-label="5 stars" required><span aria-hidden="true">★</span></label>
+                </div>
+                <small class="feedback-rating-hint">1 star = needs improvement; 5 stars = excellent.</small>
+              </fieldset>
+              <label for="feedback-comments">Comments (optional)</label>
+              <textarea id="feedback-comments" name="comments" maxlength="1000" placeholder="What did you enjoy? What could we improve?"></textarea>
+              <button class="button button-primary" type="submit">Send feedback <span aria-hidden="true">↗</span></button>
+            </form>
+            <p class="feedback-note">Feedback is saved only in this browser; it is not sent to the restaurant.</p>
+            <p class="feedback-message" id="feedback-message" role="status" aria-live="polite"></p>
+          </section>
+        </div>
+        <a class="text-link" href="index.html#menu">← Back to the menu</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="index.html#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 17h20a10 10 0 0 1-20 0Z"></path><path d="M10 12c-1.5-2 1.5-2.5 0-5M16 12c-1.5-2 1.5-2.5 0-5M22 12c-1.5-2 1.5-2.5 0-5M10 28h12"></path></svg></span><span class="brand-name">Saffron <span>&amp;</span> Stone</span></a>
+      <p>Good food, good company.<br>Always room at the table.</p>
+      <div class="footer-links"><a href="index.html#menu">Menu</a><a href="index.html#about">Our story</a><a href="index.html#contact">Get in touch</a></div>
+      <a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> Saffron &amp; Stone</span><span>Demo checkout only.</span></div>
+  </footer>
+</body>
+</html>

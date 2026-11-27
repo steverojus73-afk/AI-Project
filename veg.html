@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6fb">
+  <meta name="description" content="Explore vegetarian Tamil Nadu favourites at Saffron & Stone.">
+  <title>Tamil Vegetarian Menu — Saffron &amp; Stone</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu-photo-data.js" defer></script>
+  <script src="menu-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body data-menu-category="veg">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html#home" aria-label="Saffron and Stone home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><g><path class="logo-petal" d="M20 3.5c4.1 5 4.1 8.6 0 13.2-4.1-4.6-4.1-8.2 0-13.2Z"/><path class="logo-petal" d="M36.5 20c-5 4.1-8.6 4.1-13.2 0 4.6-4.1 8.2-4.1 13.2 0Z"/><path class="logo-petal" d="M20 36.5c-4.1-5-4.1-8.6 0-13.2 4.1 4.6 4.1 8.2 0 13.2Z"/><path class="logo-petal" d="M3.5 20c5-4.1 8.6-4.1 13.2 0-4.6 4.1-8.2 4.1-13.2 0Z"/><path class="logo-petal" d="M8.3 8.3c6.4.4 8.9 2.9 9.3 9.3-6.4-.4-8.9-2.9-9.3-9.3Z"/><path class="logo-petal" d="M31.7 8.3c-.4 6.4-2.9 8.9-9.3 9.3.4-6.4 2.9-8.9 9.3-9.3Z"/></g><circle class="logo-core" cx="20" cy="20" r="2.2"/><path class="logo-stone" d="M12 32.2c2.4-2.1 13.6-2.1 16 0-2.1 3.1-13.9 3.1-16 0Z"/></svg></span>
+        <span class="brand-name">Saffron <span>&amp;</span> Stone</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="index.html#home">Home</a><a href="index.html#menu">Menu</a><a href="index.html#about">About Us</a><a href="index.html#contact">Contact</a><a href="support.html">Support</a>
+        <button class="signin-link" id="signin-link" type="button">Sign in</button>
+        <div class="auth-status" id="auth-status" hidden><span class="auth-name" id="auth-name"></span><button class="signout-button" id="signout-button" type="button">Sign out</button></div>
+        <span class="auth-message" id="auth-message" role="status" hidden></span>
+        <a class="cart-link" href="cart.html" aria-label="Cart, 0 items"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg><span>Cart</span><span class="cart-count" aria-live="polite">0</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="menu-section section-pad" id="menu" aria-labelledby="page-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> From the tiffin table</p><h2 id="page-title">Tamil vegetarian <em>favorites.</em></h2></div>
+          <p class="section-intro">Enjoy classic tiffin and homestyle dishes, from idli and dosa to comforting rice meals.</p>
+        </div>
+        <nav class="category-pages" aria-label="Explore menu pages">
+          <a href="veg.html" aria-current="page">Veg menu <span aria-hidden="true">→</span></a><a href="non-veg.html">Non-Veg menu <span aria-hidden="true">→</span></a><a href="desserts.html">Desserts menu <span aria-hidden="true">→</span></a><a href="drinks.html">Drinks menu <span aria-hidden="true">→</span></a>
+        </nav>
+        <div class="menu-search menu-search-page">
+          <label for="menu-search">Search dishes</label>
+          <input id="menu-search" type="search" autocomplete="off" placeholder="Try Masala Dosa">
+        </div>
+        <div class="menu-grid" id="menu-items" aria-live="polite">
+        </div>
+        <p class="menu-empty" id="menu-empty" role="status" hidden>No dishes match your search. Try another name.</p>
+        <p class="cart-feedback" id="cart-feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="index.html#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><g><path class="logo-petal" d="M20 3.5c4.1 5 4.1 8.6 0 13.2-4.1-4.6-4.1-8.2 0-13.2Z"/><path class="logo-petal" d="M36.5 20c-5 4.1-8.6 4.1-13.2 0 4.6-4.1 8.2-4.1 13.2 0Z"/><path class="logo-petal" d="M20 36.5c-4.1-5-4.1-8.6 0-13.2 4.1 4.6 4.1 8.2 0 13.2Z"/><path class="logo-petal" d="M3.5 20c5-4.1 8.6-4.1 13.2 0-4.6 4.1-8.2 4.1-13.2 0Z"/><path class="logo-petal" d="M8.3 8.3c6.4.4 8.9 2.9 9.3 9.3-6.4-.4-8.9-2.9-9.3-9.3Z"/><path class="logo-petal" d="M31.7 8.3c-.4 6.4-2.9 8.9-9.3 9.3.4-6.4 2.9-8.9 9.3-9.3Z"/></g><circle class="logo-core" cx="20" cy="20" r="2.2"/><path class="logo-stone" d="M12 32.2c2.4-2.1 13.6-2.1 16 0-2.1 3.1-13.9 3.1-16 0Z"/></svg></span><span class="brand-name">Saffron <span>&amp;</span> Stone</span></a><p>Good food, good company.<br>Always room at the table.</p><div class="footer-links"><a href="index.html#menu">All food</a><a href="index.html#about">Our story</a><a href="index.html#contact">Get in touch</a></div><a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a></div><div class="container footer-bottom"><span>© <span id="current-year"></span> Saffron &amp; Stone &middot; Created by Sarvesh SS</span><span>Made with care, served with love.</span></div></footer>
+</body>
+</html>
